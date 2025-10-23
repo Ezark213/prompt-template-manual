@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロンプトテンプレート集</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .templates {
+            margin-top: 30px;
+        }
+
+        .template-card {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .template-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .template-card h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .template-card p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+
+        .btn:hover {
+            background: #764ba2;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .github-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .github-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📝 プロンプトテンプレート集</h1>
+            <p class="subtitle">実務で使えるプロンプトエンジニアリングテンプレート</p>
+        </header>
+
+        <main>
+            <section class="templates">
+                <div class="template-card">
+                    <h2>🤝 商談資料プロンプトテンプレート</h2>
+                    <p>イザークコンサルティングの商談資料作成に特化したプロンプトテンプレートです。効果的な提案書や営業資料の作成をサポートします。</p>
+                    <a href="./プロンプトテンプレート.md" class="btn">テンプレートを見る</a>
+                </div>
+            </section>
+
+            <section style="margin-top: 40px; padding: 20px; background: #e8f4f8; border-radius: 8px;">
+                <h2 style="color: #333; margin-bottom: 15px;">使い方</h2>
+                <ol style="color: #666; line-height: 1.8; padding-left: 20px;">
+                    <li>各テンプレートをクリックして内容を確認</li>
+                    <li>必要に応じてカスタマイズ</li>
+                    <li>AI（Claude、ChatGPT、Geminiなど）に入力して活用</li>
+                </ol>
+            </section>
+        </main>
+
+        <footer>
+            <p>このサイトは GitHub Pages でホストされています</p>
+            <p><a href="https://github.com/Ezark213/prompt-template-manual" class="github-link" target="_blank">📂 GitHubリポジトリを見る</a></p>
+        </footer>
+    </div>
+</body>
+</html>
